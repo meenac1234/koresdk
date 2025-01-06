@@ -20,7 +20,7 @@
         }
     }
 
-    botOptions.JWTUrl = "https://d2510yjc84924l.cloudfront.net/";
+    botOptions.JWTUrl = "https://back-end-0kqx.onrender.com";
     botOptions.userIdentity = 'p.shyamprasad@genpact.com';// Provide users email id here
     botOptions.botInfo = { name: "Suzy*TheAIgent*", "_id": "st-fd5a0ea6-a96e-59c1-a0cb-8e01b93ccbc0" }; // bot name is case sensitive
 
