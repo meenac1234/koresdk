@@ -4871,7 +4871,7 @@
                 if (audioMsgs.length > 0 && !audioPlaying) {
                     audioPlaying = true;
                     speechSyn.text = audioMsgs.shift();
-                    speechSyn.voice = voices.find(voice => voice.name === "Microsoft Emma Online (Natural) - English (United States)");
+                    speechSyn.voice = voices.find(voice => voice.name === "Microsoft Aria Online (Natural) - English (United States)");
                     console.log("Voice selected is", speechSyn.voice);
                     window.speechSynthesis.speak(speechSyn);
                     speechSyn.onend = function () {
